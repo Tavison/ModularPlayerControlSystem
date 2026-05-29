@@ -58,7 +58,7 @@ Enhanced Input handles *what a key does*. MPCS handles *which keys are active ri
 - You need hard blocks for cutscenes or loading screens
 - UI or game systems need to observe input-mode changes without polling
 
-See [Docs/UserGuide.md — MPCS vs. Raw Enhanced Input](Docs/UserGuide.md#mpcs-vs-raw-enhanced-input) for the full comparison.
+See [UserGuide.md — MPCS vs. Raw Enhanced Input](UserGuide.md#mpcs-vs-raw-enhanced-input) for the full comparison.
 
 ---
 
@@ -105,7 +105,7 @@ PublicDependencyModuleNames.AddRange(new string[] { "MPCS_Core", "EnhancedInput"
 
 ## Quick Start
 
-The full walkthrough is in [Docs/UserGuide.md](Docs/UserGuide.md). The short version:
+The full walkthrough is in [UserGuide.md](UserGuide.md). The short version:
 
 1. Enable Enhanced Input in *Project Settings → Input* (`EnhancedPlayerInput` + `EnhancedInputComponent`).
 2. Add an `MPCS_InputRootComponent` to your Player Controller. Either inherit from `AMPCS_ModularPlayerController` or add a two-line `SetupInputComponent` override.
@@ -134,8 +134,8 @@ Get Local Player
 
 | Document | Audience | Contents |
 |---|---|---|
-| [Docs/UserGuide.md](Docs/UserGuide.md) | Designers and Blueprint users | Concepts, step-by-step setup, Blueprint workflows, extended patterns (gates, delegates, dynamic providers) |
-| [Docs/TechnicalReference.md](Docs/TechnicalReference.md) | C++ developers | Full API surface, initialization sequence, contracts and invariants, extension points, test infrastructure |
+| [UserGuide.md](UserGuide.md) | Designers and Blueprint users | Concepts, step-by-step setup, Blueprint workflows, extended patterns (gates, delegates, dynamic providers) |
+| [TechnicalReference.md](TechnicalReference.md) | C++ developers | Full API surface, initialization sequence, contracts and invariants, extension points, test infrastructure |
 
 ---
 
