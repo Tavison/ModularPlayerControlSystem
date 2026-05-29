@@ -1,0 +1,12 @@
+# Compiled output
+Binaries/
+Intermediate/
+
+# Editor / IDE
+.vs/
+*.suo
+*.user
+*.sln
+
+# UE saved data
+Saved/
